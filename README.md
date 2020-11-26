@@ -1,4 +1,9 @@
 # Street-View-House-Numbers-Detection
+The proposed challenge is a street view house numbers detection, which contains two parts:
+1. Do bounding box regression to find top, left, width and height of bounding boxes which contain digits in a given image
+2. classify the digits of bounding boxes into 10 classes (0-9)
+The giving SVHN dataset contains 33402 images for training and 13068 images for testing. This project uses the YOLOv5 pre-trained model to fix this challenge.
+
 
 ### Hardware
 - Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
